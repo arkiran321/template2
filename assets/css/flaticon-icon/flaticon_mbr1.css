@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "flaticon_mbr1";
+    src: url("./flaticon_mbr1.ttf?ba83c86c9f31a327ba4954b408d3ab48") format("truetype"),
+url("./flaticon_mbr1.woff?ba83c86c9f31a327ba4954b408d3ab48") format("woff"),
+url("./flaticon_mbr1.woff2?ba83c86c9f31a327ba4954b408d3ab48") format("woff2"),
+url("./flaticon_mbr1.eot?ba83c86c9f31a327ba4954b408d3ab48#iefix") format("embedded-opentype"),
+url("./flaticon_mbr1.svg?ba83c86c9f31a327ba4954b408d3ab48#flaticon_mbr1") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mbr1 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-facility-management:before {
+    content: "\f101";
+}
+.flaticon-house:before {
+    content: "\f102";
+}
+.flaticon-interior-design:before {
+    content: "\f103";
+}
